@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+
+# AgentForge Workspace (Generated Projects)
+workspace/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+*.log
+
+# Diagnostic Scripts
+verify_v3_agents.py
+diagnose_gemini.py
+check_genai.py
+
+# OS specific files
+.DS_Store
+Thumbs.db

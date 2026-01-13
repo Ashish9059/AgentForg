@@ -1,78 +1,95 @@
-# AgentForge v3.0: The Production Suite 🛸🤖
+# <div align="center">🛸 AgentForge v3.0: Mission Control</div>
 
-**AgentForge** is an advanced agentic swarm orchestrator designed to build professional, multi-file web applications and API integrations autonomously. Version 3.0, "Web & API Professional," introduces a high-performance frontend architecture and real-world connectivity.
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Production_Stable-00FF41?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-F5D76E?style=for-the-badge" />
+</div>
 
----
-
-## 🚀 Key Features (v3.0)
-
-### 🛰️ Mission Control Dashboard
-A pro-grade UI built with `CustomTkinter` featuring:
-- **Matrix Logs**: Real-time streaming of swarm activity.
-- **Live Architecture**: A dynamic pane showing the project structure as it evolves.
-- **Dependency Registry**: Automated tracking of external libraries (e.g., `streamlit`, `pandas`).
-- **Workspace Explorer**: Integrated file tree and code viewer for immediate inspection.
-
-### 🌐 Web-First Swarm Architecture
-- **ArchitectAgent**: Enforces a strict **Backend-Service-Frontend (BSF)** pattern.
-- **CoderAgent**: Prioritizes live data using the `requests` library and secure API key management via `.env`.
-- **ReviewerAgent**: Performs **Technical Debt Analysis**, suggesting and enforcing performance optimizations.
-
-### 🛡️ Production Guardrails
-- **Self-Healing Loop**: Automatic AST syntax checking and repair.
-- **Rate-Limit Intelligence**: Exponential backoff (429 handling) for Gemini Free Tier stability.
-- **Safe Execution**: Background detection and launching for Streamlit web apps.
+<div align="center">
+  <h3>The Ultimate Agentic Swarm Orchestrator for Multi-File Web Systems</h3>
+  <p>AgentForge is a production-grade swarm engine that autonomously architects, writes, reviews, and deploys professional web applications using a Backend-Service-Frontend (BSF) paradigm.</p>
+</div>
 
 ---
 
-## 🛠️ Installation
+## ⚡ Key Highlights [V3.0 "Production Suite"]
 
-### 1. Clone the Repository
+### 🛰️ Mission Control Terminal
+A high-visual command center built for real-time monitoring:
+*   **Neural Activity Matrix**: Live streaming of agent "thoughts" and code generation.
+*   **Dynamic Dependency Registry**: Automatically identifies and lists external libraries (Pandas, Streamlit, Requests) in real-time.
+*   **Pro-Explorer & Editor**: Side-by-side file tree and syntax-ready code viewer for workspace management.
+
+### 🧠 Swarm Intelligence Layer
+*   **ArchitectAgent**: Designs robust, scalable multi-file maps following industry standard patterns.
+*   **CoderAgent**: Implements API-first logic with `.env` security and real-world data fetching.
+*   **ReviewerAgent**: Performs **Technical Debt Analysis**, enforcing one performance refactor per file.
+*   **Self-Healing Loop**: Automated AST parsing and repair for zero-syntax mission failures.
+
+### 🛡️ Production Ops
+*   **Streamlit Hot-Launch**: Background detection and execution of web dashboards.
+*   **Smart Backoff**: Resilience against Rate Limits (429) with exponential wait logic.
+*   **Isolated Workspaces**: Every mission gets its own sandboxed environment.
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1. Requirements
+Ensure you have **Python 3.9+** and a **Google Gemini API Key**.
+
+### 2. Deployment
 ```bash
+# Clone the Core
 git clone https://github.com/Ashish9059/AgentForg.git
 cd AgentForg
-```
 
-### 2. Setup Virtual Environment
-```bash
+# Initialize Neural Environment
 python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
-```
+.\venv\Scripts\activate  # Windows
+source venv/bin/activate # Linux/Mac
 
-### 3. Install Dependencies
-```bash
+# Install Core Components
 python -m pip install -r requirements.txt
 ```
 
----
-
-## 🖥️ Usage
-
-1. **Launch the Dashboard**:
-   ```bash
-   .\run.bat
-   ```
-2. **Configure API Key**: Enter your Google Gemini API Key in the sidebar "Security Token" field.
-3. **Start a Mission**: Enter an objective (e.g., *"Build a Real-Time Crypto Sentinel Dashboard using Streamlit"*) and click **Start Mission**.
+### 3. Launching
+```bash
+.\run.bat
+```
 
 ---
 
-## 🏗️ Architecture [V3.0]
+## 🏗️ Neural Architecture
 
-| Component | Responsibility |
-| :--- | :--- |
-| **Orchestrator** | Manages the dynamic swarm routing and refactor loops. |
-| **Architect** | Designs the BSF structure and plans the filesystem. |
-| **Coder** | Generates production-grade, file-aware Python code. |
-| **Reviewer** | Audits code for technical debt and performance. |
-| **Executor** | Safely launches scripts and web servers in isolated workspaces. |
+| Agent | Rank | Core Directive |
+| :--- | :--- | :--- |
+| **Architect** | Lead | Design BSF Architecture & Map Filesystem |
+| **Coder** | Builder | Write API-Centric, Self-Documenting Code |
+| **Reviewer** | Critic | Analyze Technical Debt & Optimize Performance |
+| **Tester** | QA | Generate Standalone Unit Test Suites |
+| **Deployer** | Ops | Create Production-Ready DEPLOY.md Guides |
 
 ---
+
+## 🗺️ Roadmap to v4.0
+- [x] Multi-file Project Mode
+- [x] Technical Debt Review Pass
+- [x] Mission Control UI Overhaul
+- [ ] **Docker Swarm Integration** (Isolated Containers)
+- [ ] **RAG Knowledge Base** (Local PDF/Doc memory)
+- [ ] **Self-Deploying Webhooks** (Netlify/Heroku Integration)
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repo and submit a PR. For major changes, please open an issue first.
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT © Ashish9059
 
-*Built with Agentic Coding Excellence.*
+<div align="center">
+  <sub>Built with ❤️ by the AgentForge Swarm</sub>
+</div>
